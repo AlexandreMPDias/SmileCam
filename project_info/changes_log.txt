@@ -1,0 +1,20 @@
+v1.0.0.4
+    -Reestructured the project directories
+
+v1.0.0.3
+    -Edited debug.py
+
+v1.0.0.2
+    -Added check for face_images, if face_images not found, it will be created.
+
+v1.0.0.1
+    -Changed message_cli to popup.py
+    -Added import popup.py on smile.py
+    -Created log.py module using coloroma
+    -Added import log.py
+    -Added multiple log message inside code
+    -Added Warning Suppresion on keras import
+
+
+v1.0.0.0
+    -Added popup window as message_cli
