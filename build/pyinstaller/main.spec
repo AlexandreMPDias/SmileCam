@@ -24,7 +24,7 @@ Relative path to your data dir [ where all the data used in your program is (it 
 path relative to your MAIN_FILE
 """
 
-root = '..\\..\\'
+root = '..\\..\\src\\'
 """
 Path to your root directory [ where your MAIN_FILE is ]
 """
