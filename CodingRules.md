@@ -1,11 +1,8 @@
 [![N|Solid](https://i.imgur.com/rUMbDaZ.png)](https://cyberlabs.com.br)
 
-[TOCM]
 
-[TOC]
-
-#Project Structure
-###Structure
+# Project Structure
+## #Structure
 Directory  | Description
 ------------- | -------------
 root | .
@@ -16,7 +13,7 @@ config | Contain all config files needed by the project
 constant | Contain Python scripts containing constant variables declaration
 modules | Contain Python scripts that is the project itself
 
-###Directory Tree
+## #Directory Tree
 <pre> 
 root
 	 ┬  
@@ -46,8 +43,8 @@ root
 		 	└ config.json
 </pre>
 
-#Variables and Files
-###Naming Variables:
+# Variables and Files
+## #Naming Variables:
 **Class:**  UpperCamelCase.
 *Example(s):  MetaServer, Process, ProcessGenerator, WriterOfStuff*
 
@@ -66,7 +63,7 @@ HAARCASCADE = PRIVATE_DIR + "haarcascade.xml" *
 **Python Scripts :** lowercase, word divided by <u>underscore</u>  
 *Example(s): main.py, server.py, webcam_server.py*
 
-###Declaring Variables:
+## #Declaring Variables:
 
 **Class:**  inside class_name.py
 *Example(s):  MetaServer inside meta_server.py, Process inside process.py, ProcessGenerator inside process_generator.py, WriterOfStuff inside writer_of_stuff.py*
