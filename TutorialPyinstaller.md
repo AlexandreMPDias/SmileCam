@@ -191,6 +191,7 @@ After you have thoroughly edited your .spec file, you can rebuild your executabl
 ```.bat
 pyinstaller main.spec
 ```
+**[NOTE]:** Note main's extension **.SPEC**, not **.PY**
 
 ### III. Common Errors and Solutions
 
@@ -208,7 +209,7 @@ from scipy import optimize
 Locate your virtualenv environment's path.  
 **Default:** C:\User\xxxxxxx\Envs  
 
-Edit your Analysis.pathex, from:
+Edit your Analysis.pathex from:
 ```.spec
 a.Analysis(
 		...
@@ -228,6 +229,27 @@ a.Analysis(
 		...
 )
 ```
+also, edit your Analysis.hiddenimports from:
+```.spec
+a.Analysis(
+		...
+		a.hiddenimports=[]
+		...
+)
+```
+to
+```.spec
+a.Analysis(
+		...
+		a.hiddenimports=['scipy._lib.messagestream']
+		...
+)
+```
+And now recombile by running:
+```.bat
+pyinstaller main.spec
+```
+
 
 # Helpful Stuff
   
