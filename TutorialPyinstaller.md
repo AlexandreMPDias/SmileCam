@@ -173,7 +173,7 @@ or
 ('data\\*', '.\\data')
 ```
 
-**[NOTE]:** The use **\\** instead of **/** is required. If you copy paste the path from some folder, make sure that the path is changed to fit this format.
+**[NOTE]:** The use **\\\\** instead of **/** is required. If you copy paste the path from some folder, make sure that the path is changed to fit this format.
 
 #### II.V In-Depth Explanation: Icons
 Every application has an icon, to add an icon to your program, just add the following line of code under EXE, inside the .spec file
