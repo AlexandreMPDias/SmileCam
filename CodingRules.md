@@ -2,7 +2,7 @@
 
 
 # Project Structure
-## #Structure
+### Structure
 Directory  | Description
 ------------- | -------------
 root | .
@@ -13,42 +13,46 @@ config | Contain all config files needed by the project
 constant | Contain Python scripts containing constant variables declaration
 modules | Contain Python scripts that is the project itself
 
-## #Directory Tree
+### Directory Tree
 <pre> 
 root
-	 ┬  
-	 ├ project_info  
-			 ┬  
-		 	├ changes_log.txt
-		 	├ requirements.txt
-		 	└ version.txt
+	┬  
+	├ project_info  
+		┬  
+	 	├ changes_log.txt
+	 	├ requirements.txt
+	 	└ version.txt
 	├ src  
-			┬ 
-			├ data  
-					┬ checkpoints
-							┬
-							└ epoch_75.hdf5
-					├ face_images
-							┬
-							└  face.png
-					└ haarcascade_frontalface_default.xml
-			 ├ modules
-				 	├ scripts.py
-			 ├ modules
-					 ├ general.py
-					 └ sql.py
-			 └ main.py
-	 ├ config  
-			 ┬  
-		 	└ config.json
+		┬ 
+		├ data
+            ┬
+			├ checkpoints
+				┬
+				└ epoch_75.hdf5
+			├ face_images
+				┬
+				└  face.png
+			└ haarcascade_frontalface_default.xml
+		├ modules
+            ┬
+		 	├ script1.py
+            └ script2.py
+		├ constant
+            ┬
+			├ general.py
+			└ sql.py
+		└ main.py
+	├ config  
+		┬  
+	 	└ config.json
 </pre>
 
 # Variables and Files
-## #Naming Variables:
+### Naming Variables:
 **Class:**  UpperCamelCase.
 *Example(s):  MetaServer, Process, ProcessGenerator, WriterOfStuff*
 
-**Methods / Functions : ** lowerCamelCase.
+**Methods \/ Functions : ** lowerCamelCase.
 *Example(s):  createServer(...), writeToFile(...), createHeatMap(...)*
 
 **Constants :** CAPSLOCK, words divided by <u>underscore</u>, with public/private prefix
@@ -63,7 +67,7 @@ HAARCASCADE = PRIVATE_DIR + "haarcascade.xml" *
 **Python Scripts :** lowercase, word divided by <u>underscore</u>  
 *Example(s): main.py, server.py, webcam_server.py*
 
-## #Declaring Variables:
+### Declaring Variables:
 
 **Class:**  inside class_name.py
 *Example(s):  MetaServer inside meta_server.py, Process inside process.py, ProcessGenerator inside process_generator.py, WriterOfStuff inside writer_of_stuff.py*
