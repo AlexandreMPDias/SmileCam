@@ -121,7 +121,7 @@ Lets create this sample structure here:
  		├ file1.txt
   </pre>  
 
-In this scenario, main.py needs file1 to file3 to run properly, and, as such, we would like to copy it automatically when generating an executable.
+In this scenario, main.py needs file1, file2 and file3 to run properly, and, as such, we would like to copy it automatically when generating an executable.
 
 a.data's structure follow this rule, for each file or bundle of files you want to add will add a **()** such as:
 ```.spec
