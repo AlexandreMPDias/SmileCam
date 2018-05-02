@@ -61,7 +61,7 @@
   **./src**  
   *Contain the script files and data files*  
   This directory should contain [ main.py ], [ data ], [ modules ], [ constant ].  
-  Whatever file that has the [ if __name__ == "__main__": ] statement should be in here 
+  Whatever file(s) that has the [ if __name__ == "__main__": ] statement should be in here  
   
   **./config**  
   *Contain all config files needed by the project*  
@@ -83,7 +83,8 @@
   **./test**  
   *Containt Python scripts for automated tests*  
   This directory should contain all the python scripts necessary to run automated tests.  
-  This tests should contain even the most basic tests to ensure the environment integrity and to assist in setting up new environment
+  This tests should contain even the most basic tests to ensure the environment integrity  
+  and to assist in setting up new environment  
 
 
   # Variables and Files  
