@@ -60,12 +60,12 @@
   
   **./src**  
   *Contain the script files and data files*  
-  This directory should contain [ main.py ], [ data ], [ modules ], [ constants ].  
+  This directory should contain [ main.py ], [ data ], [ modules ], [ constant ].  
   Whatever file that has the [ if __name__ == "__main__": ] statement should be in here 
   
   **./config**  
   *Contain all config files needed by the project*  
-  This directory should contain [ main.py ], [ data ], [ modules ], [ constants ].  
+  This directory should contain [ main.py ], [ data ], [ modules ], [ constant ].  
   
   **./src/data**  
   *Contain all data files needed by the project*  
@@ -88,35 +88,35 @@
 
   # Variables and Files  
   ### Naming Variables:  
-  **Class:**  UpperCamelCase.  
+  **Class(es):**  UpperCamelCase.  
   *Example(s):  MetaServer, Process, ProcessGenerator, WriterOfStuff*  
     
-  **Methods**/**Functions :** lowerCamelCase.    
+  **Method(s)**/**Function(s) :** lowerCamelCase.    
   *Example(s):  createServer(...), writeToFile(...), createHeatMap(...)*  
     
-  **Constants :** CAPSLOCK, words divided by <u>underscore</u>, with public/private prefix  
+  **Constant(s) :** CAPSLOCK, words divided by <u>underscore</u>, with public/private prefix  
   *Example(s): SQL_PASSWORD = PUBLIC_DIR + "1234",  
   SQL_HOST = PUBLIC_DIR + "0:0:0:0",  
   SERVER_KEY = PUBLIC_DIR + "12345",  
   HAARCASCADE = PRIVATE_DIR + "haarcascade.xml" *  
     
-  **Data Files :** lowercase  
+  **Data File(s) :** lowercase  
   *Example(s): haarcascade.xml, log.txt, smile.png, file.csv*  
     
-  **Python Scripts :** lowercase, word divided by <u>underscore</u>    
+  **Python Script(s) :** lowercase, word divided by <u>underscore</u>    
   *Example(s): main.py, server.py, webcam_server.py*  
     
   ### Declaring Variables:  
     
-  **Class:**  inside class_name.py  
+  **Class(es):**  inside class_name.py  
   *Example(s):  MetaServer inside meta_server.py, Process inside process.py, ProcessGenerator inside process_generator.py, WriterOfStuff inside writer_of_stuff.py*  
     
-  **Constants :** inside constants/*.py  
-  *Example(s): SQL_PASSWORD inside constants/sql.py, SQL_HOST inside constants/sql.py, SERVER_KEY inside constants/server.py, HAARCASCADE inside constants/general.py*  
+  **Constant(s) :** inside constant/*.py  
+  *Example(s): SQL_PASSWORD inside constant/sql.py, SQL_HOST inside constant/sql.py, SERVER_KEY inside constant/server.py, HAARCASCADE inside constant/general.py*  
     
-  **Data Files :** inside src/data or src/data's subdirectory  
+  **Data File(s) :** inside src/data or src/data's subdirectory  
   *Example(s): src/data/haarcascade.xml, src/data/log.txt, smile.png, src/data/csv/file.csv*  
     
-  **Python Scripts :** inside src/modules or src/modules's subdirectory  
+  **Python Script(s) :** inside src/modules or src/modules's subdirectory  
   *Example(s): src/modules/server.py, src/modules/webcam_server.py, src/modules/heatmap/load.py*  
   Note: except main.py, that stays inside ./src
