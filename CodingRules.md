@@ -61,7 +61,7 @@
   **./src**  
   *Contain the script files and data files*  
   This directory should contain [ main.py ], [ data ], [ modules ], [ constant ].  
-  Whatever file(s) that has the [ if __name__ == "__main__": ] statement should be in here  
+  Whatever file that has the [ if __name__ == "__main__": ] statement should be in here 
   
   **./config**  
   *Contain all config files needed by the project*  
@@ -83,17 +83,23 @@
   **./test**  
   *Containt Python scripts for automated tests*  
   This directory should contain all the python scripts necessary to run automated tests.  
-  This tests should contain even the most basic tests to ensure the environment integrity  
-  and to assist in setting up new environment  
+  This tests should contain even the most basic tests to ensure the environment integrity and to assist in setting up new environment
 
 
   # Variables and Files  
   ### Naming Variables:  
   **Class(es):**  UpperCamelCase.  
-  *Example(s):  MetaServer, Process, ProcessGenerator, WriterOfStuff*  
+  *Example(s):  
+  MetaServer,  
+  Process,  
+  ProcessGenerator,  
+  WriterOfStuff*  
     
   **Method(s)**/**Function(s) :** lowerCamelCase.    
-  *Example(s):  createServer(...), writeToFile(...), createHeatMap(...)*  
+  *Example(s):  
+  createServer(...),  
+  writeToFile(...),  
+  createHeatMap(...)*  
     
   **Constant(s) :** CAPSLOCK, words divided by <u>underscore</u>, with public/private prefix  
   *Example(s): SQL_PASSWORD = PUBLIC_DIR + "1234",  
@@ -102,22 +108,44 @@
   HAARCASCADE = PRIVATE_DIR + "haarcascade.xml" *  
     
   **Data File(s) :** lowercase  
-  *Example(s): haarcascade.xml, log.txt, smile.png, file.csv*  
+  *Example(s):  
+  haarcascade.xml,  
+  log.txt,  
+  smile.png,  
+  file.csv*  
     
   **Python Script(s) :** lowercase, word divided by <u>underscore</u>    
-  *Example(s): main.py, server.py, webcam_server.py*  
+  *Example(s): 
+   main.py,  
+   server.py,  
+   webcam_server.py*  
     
   ### Declaring Variables:  
     
   **Class(es):**  inside class_name.py  
-  *Example(s):  MetaServer inside meta_server.py, Process inside process.py, ProcessGenerator inside process_generator.py, WriterOfStuff inside writer_of_stuff.py*  
+  *Example(s):  
+  MetaServer inside meta_server.py,  
+  Process inside process.py,  
+  ProcessGenerator inside process_generator.py,  
+  WriterOfStuff inside writer_of_stuff.py*  
     
   **Constant(s) :** inside constant/*.py  
-  *Example(s): SQL_PASSWORD inside constant/sql.py, SQL_HOST inside constant/sql.py, SERVER_KEY inside constant/server.py, HAARCASCADE inside constant/general.py*  
+  *Example(s):  
+  SQL_PASSWORD inside constant/sql.py,  
+  SQL_HOST inside constant/sql.py,  
+  SERVER_KEY inside constant/server.py,  
+  HAARCASCADE inside constant/general.py*  
     
   **Data File(s) :** inside src/data or src/data's subdirectory  
-  *Example(s): src/data/haarcascade.xml, src/data/log.txt, smile.png, src/data/csv/file.csv*  
+  *Example(s):  
+  src/data/haarcascade.xml,  
+  src/data/log.txt,  
+  smile.png,  
+  src/data/csv/file.csv*  
     
   **Python Script(s) :** inside src/modules or src/modules's subdirectory  
-  *Example(s): src/modules/server.py, src/modules/webcam_server.py, src/modules/heatmap/load.py*  
+  *Example(s):  
+  src/modules/server.py,  
+  src/modules/webcam_server.py,  
+  src/modules/heatmap/load.py*  
   Note: except main.py, that stays inside ./src
