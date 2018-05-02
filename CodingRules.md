@@ -8,11 +8,11 @@
   root | .  
   project_info  | Contain files with information about the project  
   config | Contain all config files needed by the project  
+  test | Containt Python scripts for automated tests
   src  | Contain the script files and data files  
   src/data | Contain all data files needed by the project   
   src/constant | Contain Python scripts with only variable declarations  
   src/modules | Contain Python scripts that is the project itself  
-  test | Containt Python scripts for automated tests
     
   ### Directory Tree  (with sample files)
   <pre>   
