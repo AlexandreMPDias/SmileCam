@@ -10,7 +10,7 @@
   src  | Contain the script files and data files  
   data | Contain all data files needed by the project  
   config | Contain all config files needed by the project  
-  constant | Contain Python scripts containing constant variables declaration  
+  constant | Contain Python scripts with only variable declarations  
   modules | Contain Python scripts that is the project itself  
   test | Containt Python scripts for automated tests
     
@@ -76,7 +76,7 @@
   This directory should contain all the data files need to run the application. Such as png's, gif's, csv's, etc.  
 
   **./src/constant**  
-  *Contain Python scripts containing constant variables declaration*  
+  *Contain Python scripts with only variable declarations *  
   This directory should contain python scripts with only constant declarations inside.  
   A constant may be just a path, of the file itself.  
 
