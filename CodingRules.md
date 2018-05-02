@@ -52,7 +52,7 @@
   **Class:**  UpperCamelCase.  
   *Example(s):  MetaServer, Process, ProcessGenerator, WriterOfStuff*  
     
-  **Methods \/ Functions : ** lowerCamelCase.    
+  **Methods**/**Functions :** lowerCamelCase.    
   *Example(s):  createServer(...), writeToFile(...), createHeatMap(...)*  
     
   **Constants :** CAPSLOCK, words divided by <u>underscore</u>, with public/private prefix  
