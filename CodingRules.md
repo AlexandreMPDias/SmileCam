@@ -90,62 +90,62 @@
   ### Naming Variables:  
   **Class(es):**  UpperCamelCase.  
   *Example(s):  
-  MetaServer,  
-  Process,  
-  ProcessGenerator,  
+  MetaServer  
+  Process  
+  ProcessGenerator  
   WriterOfStuff*  
     
   **Method(s)**/**Function(s) :** lowerCamelCase.    
   *Example(s):  
-  createServer(...),  
-  writeToFile(...),  
+  createServer(...)  
+  writeToFile(...)  
   createHeatMap(...)*  
     
   **Constant(s) :** CAPSLOCK, words divided by <u>underscore</u>, with public/private prefix  
-  *Example(s): SQL_PASSWORD = PUBLIC_DIR + "1234",  
-  SQL_HOST = PUBLIC_DIR + "0:0:0:0",  
-  SERVER_KEY = PUBLIC_DIR + "12345",  
+  *Example(s): SQL_PASSWORD = PUBLIC_DIR + "1234"  
+  SQL_HOST = PUBLIC_DIR + "0:0:0:0"  
+  SERVER_KEY = PUBLIC_DIR + "12345"  
   HAARCASCADE = PRIVATE_DIR + "haarcascade.xml" *  
     
   **Data File(s) :** lowercase  
   *Example(s):  
-  haarcascade.xml,  
-  log.txt,  
-  smile.png,  
+  haarcascade.xml  
+  log.txt  
+  smile.png  
   file.csv*  
     
   **Python Script(s) :** lowercase, word divided by <u>underscore</u>    
   *Example(s): 
-   main.py,  
-   server.py,  
+   main.py  
+   server.py  
    webcam_server.py*  
     
   ### Declaring Variables:  
     
   **Class(es):**  inside class_name.py  
   *Example(s):  
-  MetaServer inside meta_server.py,  
-  Process inside process.py,  
-  ProcessGenerator inside process_generator.py,  
+  MetaServer inside meta_server.py  
+  Process inside process.py  
+  ProcessGenerator inside process_generator.py  
   WriterOfStuff inside writer_of_stuff.py*  
     
   **Constant(s) :** inside constant/*.py  
   *Example(s):  
-  SQL_PASSWORD inside constant/sql.py,  
-  SQL_HOST inside constant/sql.py,  
-  SERVER_KEY inside constant/server.py,  
+  SQL_PASSWORD inside constant/sql.py  
+  SQL_HOST inside constant/sql.py  
+  SERVER_KEY inside constant/server.py  
   HAARCASCADE inside constant/general.py*  
     
   **Data File(s) :** inside src/data or src/data's subdirectory  
   *Example(s):  
-  src/data/haarcascade.xml,  
-  src/data/log.txt,  
-  smile.png,  
+  src/data/haarcascade.xml  
+  src/data/log.txt  
+  smile.png  
   src/data/csv/file.csv*  
     
   **Python Script(s) :** inside src/modules or src/modules's subdirectory  
   *Example(s):  
-  src/modules/server.py,  
-  src/modules/webcam_server.py,  
+  src/modules/server.py  
+  src/modules/webcam_server.py  
   src/modules/heatmap/load.py*  
   Note: except main.py, that stays inside ./src
