@@ -14,7 +14,7 @@
   modules | Contain Python scripts that is the project itself  
   test | Containt Python scripts for automated tests
     
-  ### Directory Tree  
+  ### Directory Tree  (with sample files)
   <pre>   
   root  
   	┬    
