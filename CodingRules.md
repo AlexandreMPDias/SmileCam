@@ -61,7 +61,11 @@
   **./src**  
   *Contain the script files and data files*  
   This directory should contain [ main.py ], [ data ], [ modules ], [ constant ].  
-  Whatever file that has the [ if __name__ == "__main__": ] statement should be in here 
+  Whatever file that has following statement should be in here 
+  ```py
+    if __name__ == "__main__":
+        ...
+  ``` 
   
   **./config**  
   *Contain all config files needed by the project*  
@@ -102,19 +106,20 @@
   createHeatMap(...)*  
     
   **Constant(s) :** CAPSLOCK, words divided by <u>underscore</u>, with public/private prefix  
-  <i>Example(s): SQL_PASSWORD = PUBLIC_DIR + "1234"  
+  <i>Example(s):  
+  SQL_PASSWORD = PUBLIC_DIR + "1234"  
   SQL_HOST = PUBLIC_DIR + "0:0:0:0"  
   SERVER_KEY = PUBLIC_DIR + "12345"  
   HAARCASCADE = PRIVATE_DIR + "haarcascade.xml" </i>  
     
-  **Data File(s) :** lowercase  
-  *Example(s):  
-  haarcascade.xml  
+  **Data File(s) :** lowercase, words divided by <u>underscore</u>   
+  <i>Example(s):  
+  haarcascade_frontalface_default.xml  
   log.txt  
   smile.png  
-  file.csv*  
+  file.csv</i>  
     
-  **Python Script(s) :** lowercase, word divided by <u>underscore</u>    
+  **Python Script(s) :** lowercase, words divided by <u>underscore</u>    
   *Example(s): 
    main.py  
    server.py  
