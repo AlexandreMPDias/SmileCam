@@ -25,7 +25,7 @@
   	├ src    
   		┬   
   		├ data  
-              ┬  
+  			┬  
   			├ checkpoints  
   				┬  
   				└ epoch_75.hdf5  
@@ -34,11 +34,11 @@
   				└  face.png  
   			└ haarcascade_frontalface_default.xml  
   		├ modules  
-              ┬  
+  			┬  
   		 	├ script1.py  
               └ script2.py  
   		├ constant  
-              ┬  
+  			┬  
   			├ general.py  
   			└ sql.py  
   		└ main.py  
