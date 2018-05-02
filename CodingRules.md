@@ -46,7 +46,7 @@
   	├ config    
   		┬    
   	 	└ config.json  
-  	├ test    
+  	└ test    
   		┬    
   	 	└ testing.py 
   </pre>  
