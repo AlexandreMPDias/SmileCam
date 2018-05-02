@@ -61,7 +61,7 @@
   **./src**  
   *Contain the script files and data files*  
   This directory should contain [ main.py ], [ data ], [ modules ], [ constant ].  
-  Whatever file that has following statement should be in here 
+  Whatever file, that has following statement, should be in here 
   ```py
     if __name__ == "__main__":
         ...
@@ -111,6 +111,7 @@
   SQL_HOST = PUBLIC_DIR + "0:0:0:0"  
   SERVER_KEY = PUBLIC_DIR + "12345"  
   HAARCASCADE = PRIVATE_DIR + "haarcascade.xml" </i>  
+  <i><b>Note: PRIVATE_DIR and PUBLIC_DIR should be declared inside constant/general.py </i></b>
     
   **Data File(s) :** lowercase, words divided by <u>underscore</u>   
   <i>Example(s):  
@@ -153,4 +154,4 @@
   src/modules/server.py  
   src/modules/webcam_server.py  
   src/modules/heatmap/load.py*  
-  Note: except main.py, that stays inside ./src
+  <i><b>Note: except main.py, that stays inside ./src</i></b>  
