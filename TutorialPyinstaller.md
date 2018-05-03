@@ -111,7 +111,8 @@ As previously mentioned, if your program needs, for example, to read a certain t
 To add data files to your project, you need to edit the Analysis.data variable.
 
 Lets create this sample structure here:
-<pre>Sample Structure   
+```
+Sample Structure   
 		┬  
 		├ main.py
 		├ data
@@ -119,7 +120,7 @@ Lets create this sample structure here:
 			├ file2.txt
 			└ file3.txt
  		├ file1.txt
-  </pre>  
+  ``` 
 
 In this scenario, main.py needs file1, file2 and file3 to run properly, and, as such, we would like to copy it automatically when generating an executable.
 
