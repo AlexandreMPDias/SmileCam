@@ -285,3 +285,4 @@ where python
   ## **-- Opening Command Prompt**  
   The easiest way to open the Command Prompt on windows is by hitting the: **Win + R** keys.  
   Which will open a Prompt. Inside it, write: **cmd** and hit Enter
+  Or, you can click the Windows button and just write **Cmd** or **Command Prompt**
