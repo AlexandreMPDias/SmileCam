@@ -1,12 +1,12 @@
 [![N|Solid](https://i.imgur.com/rUMbDaZ.png)](https://cyberlabs.com.br)  
     
     
-  # Project Structure  
+  # 1. Project Structure  
     
-    The project structure was created based on [python-guide.org](http://docs.python-guide.org/en/latest/writing/structure/)  
-    Unless it is said otherwise in this ReadMe, follow **python-guide** completly
+  The project structure was created based on [python-guide.org](http://docs.python-guide.org/en/latest/writing/structure/)   
+  Unless it is said otherwise in this ReadMe, follow **python-guide** completly  
     
-  ### Structure  
+  ### 1.a Structure  
   Directory  | Description  
   ------------- | -------------  
   root | .  
@@ -19,7 +19,7 @@
   src/constant | Contain Python scripts with only variable declarations  
   src/modules | Contain Python scripts that is the project itself  
     
-  ### Directory Tree  (with sample files)
+  ### 1.b Directory Tree  (with sample files)
   ```   
   root  
   	┬    
@@ -62,7 +62,7 @@
     
   ```  
 
-  ### In-Depth Description
+  ### 1.c In-Depth Description
 
   **./project_info**  
   *Contain files with information about the project*  
@@ -120,8 +120,9 @@
   **./docs**
   This directory should contain all the documentation on the project.
   
-  # Variables and Files  
-  ### Naming Variables:  
+  # 2 Variables and Files  
+    
+  ### 2.a Naming Variables:  
   **Class(es):**  UpperCamelCase.  
   *Example(s):  
   MetaServer  
@@ -156,7 +157,7 @@
    server.py  
    webcam_server.py*  
     
-  ### Declaring Variables:  
+  ### 2.b Declaring Variables:  
     
   **Class(es):**  inside class_name.py  
   *Example(s):  
@@ -186,5 +187,5 @@
   src/modules/heatmap/load.py*  
   <i><b>Note: except main.py, that stays inside ./src</i></b>  
   
-  # Code Style
+  # 3. Code Style
   This can be entirely covered on [python-guide](http://docs.python-guide.org/en/latest/writing/style/)
