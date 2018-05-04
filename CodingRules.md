@@ -53,12 +53,13 @@
   	 	└ config.json  
   	├ test    
   		┬    
-  	 	└ testing.py
-    ├ setup.py
-   	├ README.md
-   	├ README.txt
-   	├ LICENSE
-   	└ test 
+  	 	└ testing.py  
+  	├ docs  
+  	├ setup.py  
+  	├ README.md  
+  	├ README.txt  
+  	├ LICENSE  
+  	└ test   
     
   ```  
 
