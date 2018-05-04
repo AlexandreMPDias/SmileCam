@@ -6,7 +6,7 @@
   The project structure was created based on [python-guide.org](http://docs.python-guide.org/en/latest/writing/structure/)   
   Unless it is said otherwise in this ReadMe, follow **python-guide** completly  
     
-  ### 1.a Structure  
+  ### 1.a} Structure  
   Directory  | Description  
   ------------- | -------------  
   root | .  
