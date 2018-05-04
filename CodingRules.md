@@ -6,7 +6,7 @@
   The project structure was created based on [python-guide.org](http://docs.python-guide.org/en/latest/writing/structure/)   
   Unless it is said otherwise in this ReadMe, follow **python-guide** completly  
     
-  ### 1.a} Structure  
+  ### 1.a) Structure  
   Directory  | Description  
   ------------- | -------------  
   root | .  
@@ -19,7 +19,7 @@
   src/constant | Contain Python scripts with only variable declarations  
   src/modules | Contain Python scripts that is the project itself  
     
-  ### 1.b Directory Tree  (with sample files)
+  ### 1.b) Directory Tree  (with sample files)
   ```   
   root  
   	┬    
@@ -62,7 +62,7 @@
     
   ```  
 
-  ### 1.c In-Depth Description
+  ### 1.c) In-Depth Description
 
   **./project_info**  
   *Contain files with information about the project*  
@@ -122,7 +122,7 @@
   
   # 2 Variables and Files  
     
-  ### 2.a Naming Variables:  
+  ### 2.a) Naming Variables:  
   **Class(es):**  UpperCamelCase.  
   *Example(s):  
   MetaServer  
@@ -157,7 +157,7 @@
    server.py  
    webcam_server.py*  
     
-  ### 2.b Declaring Variables:  
+  ### 2.b) Declaring Variables:  
     
   **Class(es):**  inside class_name.py  
   *Example(s):  
