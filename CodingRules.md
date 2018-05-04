@@ -51,9 +51,15 @@
   	├ config    
   		┬    
   	 	└ config.json  
-  	└ test    
+  	├ test    
   		┬    
-  	 	└ testing.py 
+  	 	└ testing.py
+    ├ setup.py
+   	├ README.md
+   	├ README.txt
+   	├ LICENSE
+   	└ test 
+    
   ```  
 
   ### In-Depth Description
@@ -74,7 +80,8 @@
   
   **./config**  
   *Contain all config files needed by the project*  
-  This directory should contain [ main.py ], [ data ], [ modules ], [ constant ].  
+  This directory should contain all configuration files.
+  *Configuration files:* files storing, for example, SQL's password, host, etc...
   
   **./src/data**  
   *Contain all data files needed by the project*  
@@ -94,7 +101,25 @@
   This directory should contain all the python scripts necessary to run automated tests.  
   This tests should contain even the most basic tests to ensure the environment integrity and to assist in setting up new environment
 
-
+  **./setup.py**  
+  The setup script is the centre of all activity in building, distributing, and installing modules using the Distutils. The main a   
+  purpose of the setup script is to describe your module distribution to the Distutils, so that the various commands that operate on  
+  your modules do the right thing  
+  
+  **./README.md and ./README.txt**  
+  A description of the project, what it does, etc...
+  
+  **./LICENSE**  
+  The project's license.
+  Sample License on [python-guide](http://docs.python-guide.org/en/latest/writing/structure/)
+  
+  **./Makefile**  
+  Command line instruction to set up the project.
+  Sample Makefile on [python-guide](http://docs.python-guide.org/en/latest/writing/structure/)
+  
+  **./docs**
+  This directory should contain all the documentation on the project.
+  
   # Variables and Files  
   ### Naming Variables:  
   **Class(es):**  UpperCamelCase.  
@@ -160,3 +185,6 @@
   src/modules/webcam_server.py  
   src/modules/heatmap/load.py*  
   <i><b>Note: except main.py, that stays inside ./src</i></b>  
+  
+  # Code Style
+  This can be entirely covered on [python-guide](http://docs.python-guide.org/en/latest/writing/style/)
