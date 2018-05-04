@@ -72,7 +72,7 @@
   **./src**  
   *Contain the script files and data files*  
   This directory should contain [ main.py ], [ data ], [ modules ], [ constant ].  
-  Whatever file, that has following statement, should be in here 
+  main.py is an example for whatever file, that has following statement: 
   ```py
     if __name__ == "__main__":
         ...
